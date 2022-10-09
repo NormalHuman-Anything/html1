@@ -1,5 +1,5 @@
 .container {
-    height:100vh;
+    height:90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,15 +33,16 @@ a {
 #home {
     background-color: aqua;
     font-size: 500%;
+    font-weight: bold;
     color: white;
 }
 
 #intro {
-    background-color: yellowgreen;
+    background-color: cornflowerblue;
 }
 
 #like {
-    background-color: green;
+    background-color: gold;
 }
 
 .container_half {
@@ -67,7 +68,7 @@ a {
 
 .card_img {
     background-color: red;
-    height: 50%;
+    height: 70%;
 }
 
 .card_title {
