@@ -1,9 +1,35 @@
 .container {
     height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    background-color: green;
+    position: fixed;
+    width: 100vw;
+}
+
+ul {
+    margin: 0px;
+    display: flex;
+    list-style-type:none;
+}
+
+li {
+    padding: 20px;
+}
+
 
 #home {
     background-color: aqua;
+    font-size: 500%;
+    color: white;
 }
 
 #intro {
@@ -11,5 +37,54 @@
 }
 
 #like {
+    background-color: green;
+}
+
+.container_half {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#like {
+    flex-wrap: wrap;
+    
+}
+
+.containertitle {
+    width: 100%;
+}
+
+.card {
+    margin: 10px;
+    height: 200px;
+    width: 300px;
+}
+
+.card_img {
     background-color: red;
+    height: 50%;
+}
+
+.card_title {
+    background-color: lightgreen;
+    height: 15%;
+}
+
+.card_desc {
+    background-color: lightskyblue;
+    height: 35%;
+}
+
+.footer {
+    height: 10vh;
+}
+
+.footer-copyright {
+    padding: 30px;
+}
+
+#a {
+    height:100%;
+    width:100%;
 }
